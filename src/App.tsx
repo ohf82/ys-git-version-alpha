@@ -86,6 +86,7 @@ function App() {
   return (
     <StyledContainer>
       <Typography variant="h1" sx={{fontSize: "32px"}}>今日やること</Typography>
+      <p>やることをかきだす</p>
       <StyledForm onSubmit={(e) => addTodoItem(e)}>
         <TextField
           id="add-todo-item"
